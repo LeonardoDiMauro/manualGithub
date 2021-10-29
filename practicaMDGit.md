@@ -33,9 +33,13 @@ $ git config user.email "dima65100@gmail.com"
 $ git config user.name "LeonardoDiMauro"
 ```
 * Añadimos un comentario o _commit_ con:
+```
 $ git commit -m "primer comentario"
+```
 * Lo enviamos al server de GitHub con el siguiente comando (Nos volvera a pedir **_nombre de usuario_** y **_token_**).
+```
 $ git push
+```
 * Nuestro archivo ya esta disponible para ser editado por un colaborador autorizado por nosotros.
 
 ### Paso 3:
@@ -44,24 +48,38 @@ $ git push
 Esa persona tiene que enviarnos una invitación, para enviar la invitación debemos estar situados en el **home** de GitHub, en la esquina superior izquierda estarán listados nuestros repositorios. Pinchamos en el que queremos compartir -> **_settings_** -> **_manage access_** -> **_invite a collaborator_**.
 * Abrimos terminal en Linux y nos situamos en el directorio donde queremos trabajar.
 * El colaborador nos enviara la **_url_** de su repositorio, entonces ejecutamos el siguiente comando en la terminal:
+```
 $ git clone https://github.com/RedSalazar/PorParejas
+```
 * Entramos en la carpeta:
+```
 $ cd PorParejas
+```
 * Editamos el archivo que queramos:
+```
 $ gedit prueba.java
+```
 * Hacemos los cambios oportunos, guardamos y subimos al servidor de GitHub con el comando:
+```
 $ git add .
+```
+```
 $ git config user.email "dima65100@gmail.com"
+```
+```
 $ git config user.name "LeonardoDiMauro"
+```
 * Añadimos un comentario o _commit_ con los cambios realizados:
+```
 $ git commit -m "modificado, faltaba un ;"
+```
 
 
 ### Bibliografia:
 
 * https://www.xataka.com/basics/que-github-que-que-le-ofrece-a-desarrolladores
 * https://kinsta.com/es/base-de-conocimiento/que-es-github/
-* 
+
 ### Conclusiones:
 
 GitHub es un sistema que permite trabajar a varios usuarios al mismo tiempo en un mismo proyecto. Permite ademas llevar un control con fecha y hora sobre quien ha moficado archivos y que cambios a realizado, con la posibilidad de volver atras en caso de sea necesario.
