@@ -23,9 +23,15 @@ $ git clone https://github.com/LeonardoDiMauro/Proyecto-java
 * Nos pedirá **_nombre de usuario_** y **_token_**, usaremos el nombre que indicamos en el registro y el token lo encontraremos en la web de GitHub, pinchamos en la imagen de nuestro usuario, luego click en **_settings_** -> **_developer settings_** -> **_personal access tokens_** -> **_generate new token_**.
 * Creamos un archivo de pruebas, por ejemplo: test.java o quizas un holamundo.txt y una vez escrito lo guardamos.
 * Luego ejecutamos en la terminal:
+```
 $ git add .
+```
+```
 $ git config user.email "dima65100@gmail.com"
+```
+```
 $ git config user.name "LeonardoDiMauro"
+```
 * Añadimos un comentario o _commit_ con:
 $ git commit -m "primer comentario"
 * Lo enviamos al server de GitHub con el siguiente comando (Nos volvera a pedir **_nombre de usuario_** y **_token_**).
