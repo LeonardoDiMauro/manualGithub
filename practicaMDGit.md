@@ -40,6 +40,10 @@ $ git commit -m "primer comentario"
 ```
 $ git push
 ```
+Si da error al hacer git push, usar el comando **git pull**:
+```
+$ git pull
+```
 * Nuestro archivo ya esta disponible para ser editado por un colaborador autorizado por nosotros.
 
 ### Paso 3:
