@@ -17,9 +17,9 @@ A continuación veremos como crear un nuevo proyecto, subir un archivo al servid
 ### Paso 2:
 
 * Abrimos terminal en Linux, nos situamos en la carpeta donde queremos que se clone el repositorio y ejecutamos el comando **git clone** + la **_url_** del repositorio de la siguiente manera:
-´´´
+```
 $ git clone https://github.com/LeonardoDiMauro/Proyecto-java
-´´´
+```
 * Nos pedirá **_nombre de usuario_** y **_token_**, usaremos el nombre que indicamos en el registro y el token lo encontraremos en la web de GitHub, pinchamos en la imagen de nuestro usuario, luego click en **_settings_** -> **_developer settings_** -> **_personal access tokens_** -> **_generate new token_**.
 * Creamos un archivo de pruebas, por ejemplo: test.java o quizas un holamundo.txt y una vez escrito lo guardamos.
 * Luego ejecutamos en la terminal:
